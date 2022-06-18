@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;    
-} /* ?? Не впевнений треба перевірити*/
+}
 
 :root {
     --title-base-color: #fff;
@@ -14,4 +14,21 @@
     --paragraph-secondary-dark: #626060;
     --subtitle-dark-color: #706e6e;
     --button-bg-color: #e1a455;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.special-divider {
+    border: none;
+    background-color: var(--title-base-color);
+    height: 1px;
+    width: 30%;
 }
