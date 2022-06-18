@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Prata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;    
+} /* ?? Не впевнений треба перевірити*/
+
+:root {
+    --title-base-color: #fff;
+    --subtitle-color: #fff5eb;
+    --title-dark-color: #27292b;
+    --paragraph-text-color: #684f40;
+    --paragraph-secondary-color: #b9aea7;
+    --paragraph-secondary-dark: #626060;
+    --subtitle-dark-color: #706e6e;
+    --button-bg-color: #e1a455;
+}
