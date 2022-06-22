@@ -29,7 +29,7 @@ img {
 
 .special-divider {
     border: none;
-    background-color: var(--title-base-color);
+    background-color: var(--paragraph-secondary-dark);
     height: 1px;
     width: 30%;
 }
