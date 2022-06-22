@@ -1,0 +1,60 @@
+@import url(common.css);
+
+.header__sec {
+    background-color: var(--title-dark-color);
+}
+
+.header-content {
+    width: 85%;
+    height: auto;
+    padding: 50px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 218px;
+}
+
+.header-content ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+
+.header-content ul li a {
+    text-decoration: none;
+    color: var(--title-base-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.header-content .nav__list-btn .nav__list-link {
+    font-size: 12px;
+    background: var(--button-bg-color);
+    padding: 6px 27px;
+    border-radius: 14px;
+}
+
+.header-content .nav__list-btn .nav__list-link:hover {
+    background: var(--button-hover-color);
+    transition: 0.5s;
+}
+
+/* .header-content ul li::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background: var(--button-bg-color);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.header-content ul li:hover::after {
+    width: 100%;
+} */
