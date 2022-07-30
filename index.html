@@ -67,7 +67,7 @@
             <h2 class="featured__title">Featured Breads</h2>
             <div class="featured__content">
                 <div class="featured__item-card">
-                    <img src="" alt="">
+                    <img src="img/featured_item-1.png" alt="">
                     <h3 class="featured__subtitle">Quinoa Sourdough</h3>
                     <p class="featured__text">Handmade from quinoa, soybeans, 
                         and soy flour, this kind of bread contains more 
@@ -75,7 +75,7 @@
                         makes it ideal to taste with salted butter.</p>
                 </div>
                 <div class="featured__item-card">
-                    <img src="" alt="">
+                    <img src="img/featured_item-2.png" alt="">
                     <h3 class="featured__subtitle">Danish Sourdough</h3>
                     <p class="featured__text">This popular full of texture and 
                         flavor Danish bread is healthy, tasty, and can be 
@@ -83,14 +83,14 @@
                         with cold butter, meat, fish, or cheese.</p>
                 </div>
                 <div class="featured__item-card">
-                    <img src="" alt="">
+                    <img src="img/featured_item-3.png" alt="">
                     <h3 class="featured__subtitle">Cranberry Sourdough</h3>
                     <p class="featured__text">Being a classic seasonal centerpiece, 
                         this nutritious bread is charged with cranberries and 
                         pecans. It can be perfectly combined with cooked meat or cheese.</p>
                 </div>
                 <div class="featured__item-card">
-                    <img src="" alt="">
+                    <img src="img/featured_item-4.png" alt="">
                     <h3 class="featured__subtitle">Hove Wholemeal</h3>
                     <p class="featured__text">This Hove inspired vegan wholemeal 
                         loaf is made from such organic ingredients as 
@@ -99,6 +99,131 @@
                 </div>
             </div>
         </section>
+        <section class="menu">
+            <!-- Link to each tab with onclick event -->
+            <div id="tabsDiv">
+                <button class="linkClass" onclick="displayContent(event, 'breads')">Breads</button>   
+                <button class="linkClass" onclick="displayContent(event, 'breakfast')">Breakfast</button>
+                <button class="linkClass" onclick="displayContent(event, 'lunch&dinner')">Lunch & Dinner</button>
+            </div>
+ 
+            <!-- Content for each HTML tab  -->
+            <div id="breads" class="contentClass">
+                <h3>Breads</h3>
+   
+                    <ul class="breads-list-items">
+                        <li class="menu-breads-item">
+                             <h3 class="item-heading">Carrot Rye<span class="special-divider"></span>$4.80</h3>
+                            <p class="item-paragraph">Seeded rye bread covered with seeds, made with a grated carrot which keeps the bread deliciously moist.</p>
+                        </li>
+                        <li class="menu-breads-item">
+                            <h3 class="item-heading">Chia Rye<span class="special-divider"></span>$4.80</h3>
+                            <p class="item-paragraph">Light rye bread covered with chia seeds and sunflower seeds.</p>
+                        </li>
+                        <li class="menu-breads-item">
+                            <h3 class="item-heading">Olander Loaf<span class="special-divider"></span>$4.80</h3>
+                            <p class="item-paragraph">Wholegrain loaf made with Biga sourdough and a Nordic protein rich Olander wheat.</p>
+                        </li>
+                        <li class="menu-breads-item">
+                            <h3 class="item-heading">Seeded Rye<span class="special-divider"></span>$4.70</h3>
+                            <p class="item-paragraph">Rye bread with 90% seeds and covered with cornflakes.</p>
+                        </li>
+                        <li class="menu-breads-item">
+                            <h3 class="item-heading">Sourdough Loaf<span class="special-divider"></span>$3.60</h3>
+                            <p class="item-paragraph">Sourdough loaf with a slightly sour and squishy consistency made with Biga sourdough.</p>
+                        </li>
+                        <li class="menu-breads-item">
+                            <h3 class="item-heading">Wholegrain Ciabatta Baguette<span class="special-divider"></span>$3.80</h3>
+                            <p class="item-paragraph">Italian whole grain durum wheat baguette.</p>
+                        </li>
+                    </ul>
+   
+            </div>
+ 
+            <div id="breakfast" class="contentClass">
+                <h3>Breakfast</h3>
+   
+                    <ul class="breakfast-list-items">
+                        <li class="menu-breakfast-item">
+                            <h3 class="item-heading">Cinnamon Swirl<span class="special-divider"></span>$3</h3>
+                            <p class="item-paragraph">Danish pastry swirl with cinnamon, marzipan, and vanilla custard.</p>
+                        </li>
+                        <li class="menu-breakfast-item">
+                            <h3 class="item-heading">Danish Roll with Cheese<span class="special-divider"></span>$3</h3>
+                            <p class="item-paragraph">One of our signature rolls (either Salt & Pepper, Skagen, or Olander Roll) served with butter and cheese.</p>
+                        </li>
+                        <li class="menu-breakfast-item">
+                            <h3 class="item-heading">Carrot Juice, 250 ml<span class="special-divider"></span>$4</h3>
+                            <p class="item-paragraph"></p>
+                        </li>
+                        <li class="menu-breakfast-item">
+                            <h3 class="item-heading">Seasonal Fruit Skyr<span class="special-divider"></span>$4</h3>
+                            <p class="item-paragraph">Protein-rich and fat-free Skyr yogurt, berry compote,
+                     house granola and a little of honey.</p>
+                        </li>
+                        <li class="menu-breakfast-item">
+                            <h3 class="item-heading">Carrot Bun<span class="special-divider"></span>$1</h3>
+                            <p class="item-paragraph">A soft bun with fresh-grated carrot and sunflower seeds (sounds strange but tastes delicious!)</p>
+                        </li>
+                        <li class="menu-breakfast-item">
+                            <h3 class="item-heading">Coffee Latte<span class="special-divider"></span>$3</h3>
+                            <p class="item-paragraph"></p>
+                        </li>
+                    </ul>
+   
+            </div>
+ 
+            <div id="lunch&dinner" class="contentClass">
+                <h3>Lunch & Dinner</h3>
+   
+                    <ul class="lunch&dinner-list-items">
+                        <li class="menu-lunch&dinner-item">
+                            <h3 class="item-heading">Potato Focaccia<span class="special-divider"></span>$3</h3>
+                            <p class="item-paragraph">Baked focaccia with potato, cheese, and rosemary.</p>
+                        </li>
+                        <li class="menu-lunch&dinner-item">
+                            <h3 class="item-heading">Vegetarian Stew<span class="special-divider"></span>$6</h3>
+                            <p class="item-paragraph">Seasonal vegetables in a rich tomato sauce served with a side of sliced Skagen bread.</p>
+                        </li>
+                        <li class="menu-lunch&dinner-item">
+                            <h3 class="item-heading">Mackerel on Rye<span class="special-divider"></span>$5</h3>
+                            <p class="item-paragraph">Smoked mackerel and Jersey potato on carrot rye with red cabbage and tartar sauce.</p>
+                        </li>
+                        <li class="menu-lunch&dinner-item">
+                            <h3 class="item-heading">Goat's Cheese Focaccia<span class="special-divider"></span>$3</h3>
+                            <p class="item-paragraph">Baked focaccia with goat cheese and grilled artichokes.</p>
+                        </li>
+                        <li class="menu-lunch&dinner-item">
+                            <h3 class="item-heading">Ham & Cheese Baguette<span class="special-divider"></span>$5</h3>
+                            <p class="item-paragraph">Hepburn's ham and Emmental cheese baguette with gherkin and mustard mayo</p>
+                        </li>
+                        <li class="menu-lunch&dinner-item">
+                            <h3 class="item-heading">Tiger Prawn Baguette<span class="special-divider"></span>$6</h3>
+                            <p class="item-paragraph">Tiger prawn and avocado baguette with Marie Rose sauce.</p>
+                        </li>
+                    </ul>
+   
+            </div>
+            <div class="download_menu-btn">
+                <a href="#">DOWNLOAD MENU</a>
+            </div>
+ 
+        </section>
+        <section class="about_us">
+            <div class="about_us__content">
+                <h2 class="about_us__content-title">About Us</h2>
+                <p class="about_us__content-text">WarmBread Bakery proudly specializes in a uniquely 
+                    handcrafted bread that is equal parts healthy and organic. Our bread is made of 
+                    premium ingredients and fresh seasonal flavors packed with: spinach, carrots, 
+                    berries, seeds, nuts, and other healthy goods.</p>
+                <p class="about_us__content-text">WarmBread Bakery products are rich in protein, 
+                    oils, nuts, and fibers that will keep you satisfied, healthy, and happy throughout the day.</p>
+                <img class="about_us__content-img" src="img/about_us-img-1.jpg" alt="">
+                <img class="about_us__content-img" src="img/about_us-img-2.jpg" alt="">
+                <img class="about_us__content-img" src="img/about_us-img-3.jpg" alt="">
+            </div>
+        </section>
     </main>
+    <script src="js/main.js"></script>
 </body>
 </html>
